@@ -6,7 +6,6 @@ axios.defaults.headers.post['Content-Type'] = 'application/x-www-form-urlencoded
 //  基础url
 axios.defaults.baseURL = 'http://localhost:8888'
 
-
 //  响应拦截器
 axios.interceptors.response.use(
   response => {
